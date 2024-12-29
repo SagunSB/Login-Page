@@ -1,10 +1,10 @@
 This is a web application built with PHP and MySQL, featuring a Sign Up and Sign In page. 
 
 Features:-
-User Registration
-Login/Logout Functionality
-Secure Password Storage using md5()
-Responsive User Interface
+1. User Registration
+2. Login/Logout Functionality
+3. Secure Password Storage using md5()
+4. Responsive User Interface
 
 Technologies Used:-
 Frontend: HTML, CSS
