@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 120%;
+  background: linear-gradient(-45deg, #5f9ea0, #66cdaa, #4682b4, #87ceeb);
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite; /* Add animation */
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 60px; /* Space for footer */
+}
+
+/* Background Animation Keyframes */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5f9ea0;
+  text-align: center;
+  border: 1px solid #b0c4de;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+form,
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #6e1818;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #c7ca18;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+/* Added footer styles */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background: rgba(95, 158, 160, 0.8);
+  color: white;
+  font-size: 14px;
+}
+
